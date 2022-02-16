@@ -1,0 +1,55 @@
+img {
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+  margin:  30px;
+  border: 1px solid gray;
+  box-shadow: 8px 8px 2px #ccc;
+  transition: transform .5s;
+}
+
+.holder {
+  width:  100%;
+  height: 100%;
+  display:  flex;
+  background-color: white;
+}
+
+.photogrid {
+  width:  60%;
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  width:  40%;
+  background-color: white;
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.title {
+  display:  flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img:hover {
+  transform: scale(1.5);
+}
+
+img:hover .intro {
+  display: none;
+}
+
+.project1 {
+  display:  none;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}

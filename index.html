@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+    function dispin(proj) {
+      document.getElementById('me').style.display = 'none';
+      document.getElementById(proj).style.display = 'flex';
+    }  
+  </script>
+  <script type="text/javascript">
+    function dispout(proj) {
+      document.getElementById('me').style.display = 'flex';
+      document.getElementById(proj).style.display = 'none';
+    }  
+  </script>
+</head>
+
+<body>
+<!-- Header -->
+<div class="holder">
+  <div class="photogrid">
+    <div> 
+      <div>
+        <img class="zoom" src="images/raze.jpg" onmouseover="dispin('raze')" onmouseout="dispout('raze')">
+        <img src="images/holdfast.jpg" onmouseover="dispin('holdfast')" onmouseout="dispout('holdfast')">
+        <img src="images/holebrain.jpg" onmouseover="dispin('holebrain')" onmouseout="dispout('holebrain')">
+      </div>
+      <div>
+        <img src="images/kompactkitchen.jpg" onmouseover="dispin('kompactkitchen')" onmouseout="dispout('kompactkitchen')">
+        <img src="images/raze.jpg">
+        <img src="images/raze.jpg">
+      </div>
+      <div>
+        <img src="images/raze.jpg">
+        <img src="images/raze.jpg">
+        <img src="images/raze.jpg">
+      </div>
+    </div>
+  </div>
+
+  <div class="intro">
+    <div class="title" id="me">
+      <h1>Atishay Saraogi</h1>
+      <p>Let’s change the world with good design: intuitive products, beautiful code, optimized supply chains, and so much more!</p>
+    </div>
+    <div class="project1" id="raze">
+      <h1> Raze </h1>
+      <p>The ultimate vegetable peeler. Designed after running performance tests on ten competitive products and inspired by razors. </p>
+    </div>
+    <div class="project1" id="holdfast">
+      <h1> Holdfast </h1>
+      <p>An attachment to stabilize a walker. My team and I created the Holdfast for a physical rehab client by conducting four rounds of user tests, resulting in an adaptable, light solution that required one less assistant to perform rehab exercise and allow the user to walk.</p>
+    </div>
+    <div class="project1" id="holebrain">
+      <h1> Holebrain </h1>
+      <p>A safety barrier designed for better communication. From ideation to prototype development & testing, our team build four iterations after interviewing users, running tests. The deliverable had 3x increase in volume with a cost of <$10.</p>
+    </div>
+    <div class="project1" id="kompactkitchen">
+      <h1> Kompact Kitchen </h1>
+      <p>A compact set of kitchen utensils designed for little space and lots of utility! From manufacturing methods to competitive price analysis, our team developed a comprehensive proposal for the client.</p>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
