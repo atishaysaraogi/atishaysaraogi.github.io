@@ -3,6 +3,11 @@
 
 <head>
   <link rel="stylesheet" href="style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+  
   <script type="text/javascript">
     function dispin(proj) {
       document.getElementById('me').style.display = 'none';
@@ -15,10 +20,10 @@
       document.getElementById(proj).style.display = 'none';
     }  
   </script>
+  <script src="https://kit.fontawesome.com/b12f271295.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<!-- Header -->
 <div class="holder">
   <div class="photogrid">
     <div> 
@@ -29,13 +34,8 @@
       </div>
       <div>
         <img src="images/kompactkitchen.jpg" onmouseover="dispin('kompactkitchen')" onmouseout="dispout('kompactkitchen')">
-        <img src="images/raze.jpg">
-        <img src="images/raze.jpg">
-      </div>
-      <div>
-        <img src="images/raze.jpg">
-        <img src="images/raze.jpg">
-        <img src="images/raze.jpg">
+        <img src="images/cleanr.jpg">
+        <img src="images/coffee.jpg">
       </div>
     </div>
   </div>
@@ -44,10 +44,25 @@
     <div class="title" id="me">
       <h1>Atishay Saraogi</h1>
       <p>Let’s change the world with good design: intuitive products, beautiful code, optimized supply chains, and so much more!</p>
+      <div class="links">
+        <a href="/about">
+          <button class="mybutton">about</button></a>
+        <a href="atishay_saraogi_resume.pdf" download="Atishay Saraogi Resume" target="_blank">
+          <button>resume</button></a>
+        <a href="https://github.com/atishaysaraogi" target="_blank">
+          <button><i class="fa-brands fa-github fa-xl"></i></button></a>
+        <a href="https://www.linkedin.com/in/atishay-saraogi/" target="_blank">
+          <button><i class="fa-brands fa-linkedin-in fa-xl"></i></button></a>
+        <a href="mailto:atishay.saraogi@gmail.com">
+          <button><i class="fa-solid fa-envelope fa-xl"></i></button></a>
+      </div>
     </div>
     <div class="project1" id="raze">
       <h1> Raze </h1>
       <p>The ultimate vegetable peeler. Designed after running performance tests on ten competitive products and inspired by razors. </p>
+      <div class="tags">
+        <button class="tag">Test</button>
+      </div>
     </div>
     <div class="project1" id="holdfast">
       <h1> Holdfast </h1>
