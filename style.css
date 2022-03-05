@@ -110,3 +110,8 @@ button{
 button:hover{
   box-shadow: 5px 6px 5px gray;;
 }
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
