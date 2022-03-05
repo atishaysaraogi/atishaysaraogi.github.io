@@ -1,26 +1,5 @@
-body {
-  display: flex;
-  align-items: stretch;
-}
-
-button{
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid #c4f7a1;
-  border-radius: 20px;
-  cursor: pointer;
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
-  font-size:  12px;
-  text-align: justify;
-  text-justify:  inter-word;
-  background-color: transparent;
-  box-shadow: 2px 3px 5px gray;
-}
-
 .tag {
   padding: 10px;
-  margin: 10px;
   border-radius: 20px;
   border-width: 0px;
   font-family: 'Roboto', sans-serif;
@@ -36,46 +15,17 @@ button{
 }
 
 .tags {
-  margin: 5%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
-button:hover{
-  box-shadow: 5px 6px 5px gray;;
-}
-
-h1 {
-  font-family: 'Roboto Thin', sans-serif;
-  font-weight: 100;
-  font-size: 60px;
-  text-shadow: 3px 3px 0px  #CAFFB9,
-              6px 5px 0px #FF99C9,
-              9px 7px 0px #A2C7E5;
- /* text-shadow: -3px -3px 0px  #335C81,
-                 -6px -6px 0px #5FBB97,
-                 -9px -9px 0px #c4f7a1; */
-  /*  text-shadow: -3px -3px 0px #D1495B,
-                 -6px -6px 0px #FF7F11,
-                 -9px -9px 0px #FFDA22;*/
-}
-
-p {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
-  font-size: 16px;
-  text-align: justify;
-  text-justify:  inter-word;
-}
-
 img {
   object-fit: cover;
-  width: 20%;
-  height: 20%;
-  margin:  5%;
-  /*box-shadow: 2px 2px 10px #b8b3e9;*/
+  width: 28%;
+  height: 28%;
+  margin:  15px;
   transition: transform .3s;
 }
 
@@ -106,16 +56,21 @@ img {
   align-items: center;
 }
 
-.links {
-  margin: 5%;
+.section{
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
   display:  flex;
   flex-flow: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   padding:  10%;
+  height: 100%;
 }
 
 img:hover {
@@ -130,7 +85,8 @@ img:hover .intro {
 .project1 {
   display:  none;
   flex-flow: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   padding:  10%;
+  height: 100%;
 }
