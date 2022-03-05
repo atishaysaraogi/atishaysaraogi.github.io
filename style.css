@@ -22,6 +22,17 @@ body {
   margin-bottom: 50px;
 }
 
+.learn {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 100%;
+  margin-bottom: 50px;
+}
+
 .caption {
   display: flex;
   flex-direction: column;
