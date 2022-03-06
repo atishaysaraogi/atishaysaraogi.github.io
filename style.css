@@ -4,6 +4,10 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 90vh;
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(to right, rgba(39, 78, 184, 0.2) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(39, 78, 184, 0.2) 1px, transparent 1px);
 }
 
 .tohome {
@@ -80,10 +84,16 @@ h1 {
   font-size: 40px;
 }
 
+h1, h2, h3 {
+  background-color: #f9b9f1bd;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 p {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  font-size: 14px;
+  font-size: 16px;
   text-align: justify;
   text-justify:  inter-word;
 }
@@ -103,7 +113,7 @@ button{
   font-size:  12px;
   text-align: justify;
   text-justify:  inter-word;
-  background-color: transparent;
+  background-color: white;
   box-shadow: 2px 3px 5px gray;
 }
 
