@@ -11,14 +11,14 @@
 
 .tag {
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 2px;
   border-width: 0px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-size:  12px;
   text-align: justify;
   text-justify:  inter-word;
-  background-color: #c4f7a1;
+  background-color: #c4f7a1c2;
   color: black;
   box-shadow: none;
   padding-left: 20px;
